@@ -3,8 +3,11 @@
 	"version": "1.0.0",
 	"description": "CLI to help with mundane stuff TA does",
 	"main": "index.js",
+	"bin": {
+		"gata": "./index.js"
+	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"gata": "node index.js"
 	},
 	"author": "Aleks Brymora",
 	"license": "MIT",
@@ -19,7 +22,13 @@
 		"inquirer": "^7.1.0",
 		"lodash": "^4.17.15",
 		"minimist": "^1.2.5",
+		"open": "^7.0.3",
 		"simple-git": "^1.132.0",
 		"touch": "^3.1.0"
-	}
+	},
+	"keywords": [
+		"ga",
+		"ta",
+		"generator"
+	]
 }
